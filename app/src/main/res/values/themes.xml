@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApp" parent="Theme.Material3.DayNight.NoActionBar">
+       <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="Theme.MyApp" parent="Base.Theme.MyApp" />
+</resources>
